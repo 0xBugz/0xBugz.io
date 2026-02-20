@@ -1,8 +1,22 @@
-### <div class="member">
-###            <h3> name </h3>
-###            <p>UI/UX Designer (Learner)</p>
-###            <div class="links">
-###                <a href="github_id" target="_blank">GitHub</a>
-###                <a href="port folio link" target="_blank">Portfolio</a>
-###            </div>
-###        </div>
+ <div class="member">
+            <h3> name </h3>
+            <p>UI/UX Designer (Learner)</p>
+            <div class="links">
+                <a href="github_id" target="_blank">GitHub</a>
+                <a href="port folio link" target="_blank">Portfolio</a>
+            </div>
+      </div>
+
+
+
+code for wall papper
+
+
+body{
+    font-family:'Orbitron', sans-serif;
+    color:#00e0ff;
+    overflow-x:hidden;
+    background: url("https://imgs.search.brave.com/3NbWWnw7FPiRsu3YF351QwNPce03TzllNpVPl6U8n-E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzkv/MjEzLzkzNi9zbWFs/bC9haS1nZW5lcmF0/ZWQtYWJzdHJhY3Qt/d2F0ZXItYnViYmxl/cy1jb2xvcmZ1bC1i/YWNrZ3JvdW5kLWRl/c2lnbi1pbWFnZXMt/cGhvdG8uanBn") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
