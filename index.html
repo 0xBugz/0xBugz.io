@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>0xbugz | Student Tech Team</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Orbitron', sans-serif;
+    background:#0a0a12;
+    color:#00e0ff;
+    overflow-x:hidden;
+}
+
+/* ===== Logo ===== */
+nav div:first-child{
+    font-size:1.5rem;
+    font-weight:700;
+    color:#00e0ff;
+    text-shadow: 0 0 4px rgba(0,224,255,0.3);
+}
+
+/* ===== Navbar ===== */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 10%;
+    border-bottom:1px solid #111;
+}
+
+nav a{
+    text-decoration:none;
+    color:#00e0ff;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7a00ff;
+}
+
+/* ===== Hero ===== */
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    color:#00e0ff;
+    text-shadow: 0 0 3px rgba(0,224,255,0.3);
+}
+
+.hero p{
+    margin-top:20px;
+    color:#aaa;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    border:2px solid #00e0ff;
+    color:#00e0ff;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#00e0ff;
+    color:#000;
+}
+
+/* ===== Sections ===== */
+section{
+    padding:80px 10%;
+    border-top:1px solid #111;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#7a00ff;
+}
+
+section p{
+    color:#bbb;
+    line-height:1.6;
+}
+
+/* ===== Team Grid ===== */
+.team{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+/* Member Card */
+.member{
+    padding:25px;
+    border:1px solid #00e0ff;
+    transition:0.3s;
+    text-align:center;
+}
+
+.member:hover{
+    background:#111;
+    transform:translateY(-5px);
+}
+
+.member h3{
+    margin-bottom:10px;
+}
+
+/* Buttons */
+.links{
+    margin-top:15px;
+}
+
+.links a{
+    display:inline-block;
+    margin:5px;
+    padding:6px 14px;
+    border:1px solid #00e0ff;
+    color:#00e0ff;
+    text-decoration:none;
+    font-size:0.8rem;
+    transition:0.3s;
+}
+
+.links a:hover{
+    background:#00e0ff;
+    color:#000;
+}
+
+/* ===== Footer ===== */
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #111;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div>0xbugz</div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>BUILD • SECURE • INNOVATE</h1>
+    <p>Learning, Building, and Growing Through Real-World Projects</p>
+    <a href="#about" class="btn">Explore</a>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        0xbugz is a GitHub organization founded by college students to collaborate 
+        on real-world projects and gain practical experience. We work together 
+        to strengthen our technical skills, share knowledge, and grow as future 
+        technology professionals.
+    </p>
+</section>
+
+<section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+        Our mission is to gain hands-on, real-world experience by working 
+        collaboratively on meaningful projects, enhancing our technical expertise, 
+        and building a strong foundation for successful careers in technology.
+    </p>
+</section>
+
+<section id="team">
+    <h2>Team Members</h2>
+    <div class="team">
+
+        <div class="member">
+            <h3>Lixdroid</h3>
+            <p>Cybersecurity Enthusiast</p>
+            <div class="links">
+                <a href="https://github.com/lixdroid-sys" target="_blank">GitHub</a>
+                <a href="https://yourportfolio1.com" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+        <div class="member">
+            <h3>404 - not found</h3>
+            <p>python Developer(AI/ML,Data pre_procers) (Learner)</p>
+            <div class="links">
+                <a href="https://github.com/Swethancyber" target="_blank">GitHub</a>
+                <a href="https://swethancyber.github.io/" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+        <div class="member">
+            <h3>Dark Slayer</h3>
+            <p>Frontend Developer (Learner)</p>
+            <div class="links">
+                <a href="https://github.com/JunithKumar" target="_blank">GitHub</a>
+                <a href="https://yourportfolio3.com" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+        <div class="member">
+            <h3>Frixy</h3>
+            <p>UI/UX Designer (Learner)</p>
+            <div class="links">
+                <a href="https://github.com/Pradeensk1" target="_blank">GitHub</a>
+                <a href="https://yourportfolio4.com" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+        <div class="member">
+            <h3>Sukrith</h3>
+            <p>Full stack (Learner)</p>
+            <div class="links">
+                <a href="https://github.com/sukrithworkspace" target="_blank">GitHub</a>
+                <a href="https://yourportfolio5.com" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+        <div class="member">
+            <h3>crash over ride</h3>
+            <p>UI/UX Designer (Learner)</p>
+            <div class="links">
+                <a href="https://github.com/Archanank-ux" target="_blank">GitHub</a>
+                <a href="https://yourportfolio6.com" target="_blank">Portfolio</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: techpy252@gmail.com</p>
+    <p>
+        Connect with us on 
+        <a href="https://in.linkedin.com/in/swethan-balaji" target="_blank">
+            LinkedIn
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 0xbugz | Student Tech Team
+</footer>
+
+</body>
+</html>
