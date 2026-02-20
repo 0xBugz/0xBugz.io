@@ -25,3 +25,4 @@ Line no 201: https://yourportfolio6.com
 ## In ms.txt you will find the code; add that after line no: 249
 
 
+## change wallpaper in website code in ms.txt past the code in line no : 155
