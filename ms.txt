@@ -1,0 +1,8 @@
+### <div class="member">
+###            <h3> name </h3>
+###            <p>UI/UX Designer (Learner)</p>
+###            <div class="links">
+###                <a href="github_id" target="_blank">GitHub</a>
+###                <a href="port folio link" target="_blank">Portfolio</a>
+###            </div>
+###        </div>
